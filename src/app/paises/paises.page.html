@@ -1,17 +1,14 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Urls
-    </ion-title>
+    <ion-title>paises</ion-title>
   </ion-toolbar>
 </ion-header>
 
-
-<ion-content [fullscreen]="true">
+<ion-content>
   <ion-list>
     <ion-item *ngFor="let item of getdata">
-      {{item.web_pages}}
+     {{item.country}}
+     {{item.name}}
     </ion-item>
-   
   </ion-list>
 </ion-content>

@@ -1,17 +1,18 @@
-// import { HttpClient } from '@angular/common/http';
-// import { Injectable } from '@angular/core';
+   import { HttpClient } from '@angular/common/http';
+   import { Injectable } from '@angular/core';
 
-// @Injectable({
-//   providedIn: 'root'
-// })
-// export class NombresService {
-//   constructor(public _http: HttpClient) {
+   @Injectable({
+   providedIn: 'root'})
+ export class NombresService {
+   constructor(public _http: HttpClient) {
 
-//   }
+   }
 
-//   getdata<T> (url : string)
-//   {
-//    url = 'http://universities.hipolabs.com/search?country=United+States'
-//    return this._http.get<T[]>(url);
-//   }
-// }
+   getdata<T> (url : string)
+  {
+    url ='http://universities.hipolabs.com/search?country=United+States'
+  return this._http.get<T[]>(url);
+  }
+
+   }
+ 

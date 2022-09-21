@@ -1,16 +1,17 @@
-// import { TestBed } from '@angular/core/testing';
+ import { TestBed } from '@angular/core/testing';
 
-// import { NombresService } from './nombres.service';
+ import { NombresService } from './nombres.service';
 
-// describe('NombresService', () => {
-//   let service: NombresService;
+ describe('NombresService', () => {
+   let service: NombresService;
 
-//   beforeEach(() => {
-//     TestBed.configureTestingModule({});
-//     service = TestBed.inject(NombresService);
-//   });
+   beforeEach(() => {
+     TestBed.configureTestingModule({});
+     service = TestBed.inject(NombresService);
+   });
 
-//   it('should be created', () => {
-//     expect(service).toBeTruthy();
-//   });
-// });
+   it('should be created', () => {
+     expect(service).toBeTruthy();
+   });
+ });
+ 
